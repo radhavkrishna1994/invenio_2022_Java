@@ -8,7 +8,6 @@ public class Company {
 		super();
 	}
 	public Company(String name, String location) {
-		super();
 		this.name = name;
 		this.location = location;
 	}

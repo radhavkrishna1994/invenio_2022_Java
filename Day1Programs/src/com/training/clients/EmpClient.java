@@ -30,10 +30,13 @@ public class EmpClient {
 		
 		john.drives();
 		
-		Company company = new Company("ABC Ltd", "Bangalore");
+		Company company = new Company("ABC Ltd", "Bangalore"); // call Company(String name,String location)
 		Employee george=new Employee("Georina", 28, car1, company);
 		
 		george.works();
+		
+		
+		Employee.genPrimeNumbers();
 	}
 
 }

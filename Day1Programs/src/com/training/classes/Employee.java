@@ -72,4 +72,9 @@ public class Employee {
 		System.out.println(name+" works in "+company.getName()+","+company.getLocation());
 		drives();
 	}
+	
+	public static void genPrimeNumbers()
+	{
+		System.out.println("2 3 5 7 11 13");
+	}
 }
