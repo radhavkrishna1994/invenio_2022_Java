@@ -4,9 +4,24 @@ public class Employee {
 	private String name; // instance variable  null
 	
 
+	public Employee(String name, int age, Car car, Company company) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.car = car;
+		this.company = company;
+	}
+
 	private int age;   //0
 	private Car car;
+	private Company company;
 	
+	public Company getCompany() {
+		return company;
+	}
+	public void setCompany(Company company) {
+		this.company = company;
+	}
 	public Car getCar() {
 		return car;
 	}
@@ -50,5 +65,11 @@ public class Employee {
 	public void drives()
 	{
 		System.out.println(name+" drives "+car.getColor()+" "+car.getModel()+" car");
+	}
+	
+	public void works()
+	{
+		System.out.println(name+" works in "+company.getName()+","+company.getLocation());
+		drives();
 	}
 }
