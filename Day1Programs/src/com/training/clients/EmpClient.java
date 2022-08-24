@@ -1,5 +1,6 @@
 package com.training.clients;
 
+import com.training.classes.Car;
 import com.training.classes.Employee;
 
 public class EmpClient {
@@ -15,6 +16,19 @@ public class EmpClient {
 		sam.setAge(28);
 			
 		System.out.println(sam.getName()+" "+sam.getAge());
+		
+		// Car
+		
+		Car car1=new Car("blue", "Alto");
+		System.out.println(car1.getColor()+" "+car1.getModel());
+		
+		sam.drives(car1);
+		
+		Car car2=new Car("red", "Santro");
+		Employee john = new Employee("Johnson", 39, car2);
+		
+		john.drives();
+		
 	}
 
 }
