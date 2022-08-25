@@ -14,6 +14,7 @@ public class PersonClient {
 		
 		Student s1=new Student("john", "Chennai", 1234l);
 		
+		
 		System.out.println(s1); //toString()
 		
 		String subjects[]= {"Java","DS","Spring"};
@@ -21,6 +22,17 @@ public class PersonClient {
 		Teacher t1=new Teacher("Radha", "Bangalore", "CS", subjects);
 		
 		System.out.println(t1);
+		
+		Student s2=new Student("george","Mumbai");
+		System.out.println(s2);
+		
+		Student s3=new Student("rajan","New Delhi");
+		System.out.println(s3);
 	}
 
 }
+
+
+
+
+

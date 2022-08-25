@@ -11,11 +11,15 @@ public class Teacher extends Person{
 	public Teacher() {
 		super();
 	}
+	
+	
 	public Teacher(String name, String address, String department, String[] subjects) {
 		super(name, address);
 		this.department = department;
 		this.subjects = subjects;
 	}
+
+
 	public String getDepartment() {
 		return department;
 	}

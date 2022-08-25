@@ -5,6 +5,7 @@ import com.training.base.Person;
 public class Student extends Person{
 	
 	private long regNo;
+	private static long  count=1000; 
 
 	public long getRegNo() {
 		return regNo;
@@ -21,6 +22,12 @@ public class Student extends Person{
 
 	public Student() {
 		super();
+	}
+
+	public Student(String name, String address) {
+		super(name, address);  
+		regNo=++count;
+		
 	}
 
 	@Override
