@@ -30,9 +30,8 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
-	public String toString()
+		
+	 public String toString()
 	{
 		return name+" "+address;
 	}
