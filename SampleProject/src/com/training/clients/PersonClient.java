@@ -2,7 +2,6 @@ package com.training.clients;
 
 import com.training.base.Person;
 import com.training.child.Student;
-import com.training.child.Teacher;
 
 public class PersonClient {
 
@@ -16,11 +15,6 @@ public class PersonClient {
 		
 		System.out.println(s1); //toString()
 		
-		String subjects[]= {"Java","DS","Spring"};
-		
-		Teacher t1=new Teacher("Radha", "Bangalore", "CS", subjects);
-		
-		System.out.println(t1);
 	}
 
 }
