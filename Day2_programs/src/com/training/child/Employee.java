@@ -27,6 +27,13 @@ public class Employee extends User {
 	public String toString() {
 		return name+" "+empId;
 	}
+
+	@Override
+	public void giveOffers() {
+		
+		System.out.println("You get 10% Reward Points..You are an Employee");
+		
+	}
 	
 
 }

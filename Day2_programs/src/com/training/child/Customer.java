@@ -27,5 +27,11 @@ public String toString() {
 	return name+" "+email;
 }
 
+@Override
+public void giveOffers() {
+	System.out.println("You get a discount of 20% | You are our privileged customer");
+	
+}
+
 
 }

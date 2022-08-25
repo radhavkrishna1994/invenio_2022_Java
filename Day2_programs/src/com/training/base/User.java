@@ -1,6 +1,6 @@
 package com.training.base;
 
-public class User {
+public abstract class User {
 	protected String name;
 
 	public User() {
@@ -24,5 +24,8 @@ public class User {
 	public String toString() {
 		return name;
 	}
+	
+	public abstract void giveOffers();
+	
 
 }
