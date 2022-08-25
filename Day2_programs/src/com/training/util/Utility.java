@@ -6,12 +6,13 @@ import com.training.base.User;
 import com.training.child.Customer;
 import com.training.child.Employee;
 
+
 public class Utility {
 
 
 	public static void printDetails(User user)
 	{
-		user.giveOffers();  // dynamically
+		user.giveOffers();  // dynamic binding
 		System.out.println(user.getName());
 
 		if(user instanceof Employee)
@@ -44,6 +45,9 @@ public class Utility {
 			break;
 		}
 		Utility.printDetails(user);
+		
+		
+		
 
 	
 
