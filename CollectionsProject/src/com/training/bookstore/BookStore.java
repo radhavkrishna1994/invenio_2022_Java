@@ -52,6 +52,10 @@ public class BookStore {
 		return false;
 
 	}
+	
+	//retrieve books based on a book title pattern as a list 
+	//Eg : C all the books that has the
+	//Pattern C should be retrieved like C, Charp, CPlus etc..
 
 
 }
