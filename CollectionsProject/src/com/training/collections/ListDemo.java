@@ -1,6 +1,7 @@
 package com.training.collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListDemo {
 
@@ -8,7 +9,7 @@ public class ListDemo {
 		
 		// list of integers
 		
-		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		List<Integer> list1 = new ArrayList<Integer>();
 		
 		list1.add(10); list1.add(15);list1.add(10);list1.add(15);list1.add(9);
 		
@@ -20,17 +21,19 @@ public class ListDemo {
 		print(list1);
 		
 		// remove element in 3rd position
-		
+		list1.remove(3);
+		print(list1);
 		//remove element 9
+		list1.remove(list1.indexOf(9));
 		
+		print(list1);
 		//search for element 15
-		
-	
-		
-
+				
+		System.out.println(list1.contains(45));
+		System.out.println(list1.indexOf(15)); 
 	}
 
-	public static void print(ArrayList<Integer> list1) {
+	public static void print(List<Integer> list1) {
 		
 		//index
 /*		for(int i=0;i<list1.size();i++)
