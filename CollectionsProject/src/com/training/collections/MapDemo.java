@@ -1,6 +1,7 @@
 package com.training.collections;
 
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.TreeMap;
 
@@ -66,13 +67,18 @@ public class MapDemo {
 			else
 				System.out.println(account);
 		}
-	
+	}
+	public static void print()
+	{
+		accounts.entrySet();
 	}
 	public static void main(String[] args) {
 				
 		accounts.put("abc", new Account(1234l, "abc", "abc", 1000.00));
 		accounts.put("xyz", new Account(2345l, "xyz", "xyz", 2000.00));
 		accounts.put("pqr", new Account(6789l, "pqr", "pqr", 4000.00));
+		
+		print();
 		
 		System.out.println("Enter Login Credentials");
 		Scanner sc=new Scanner(System.in);
