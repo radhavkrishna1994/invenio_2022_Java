@@ -37,7 +37,21 @@ public class BookStore {
 		return false;
 
 	}
+	
+	//update the stock based on isbn
+	public boolean updateStock(Long isbn,Long newStock)
+	{
+		for(Book book:bookList)
+		{
+			if(book.getIsbn().equals(isbn)) {
+				//complete the code
+				return true;
+			}
+			
+		}
+		return false;
 
+	}
 
 
 }
