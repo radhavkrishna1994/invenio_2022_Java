@@ -1,35 +1,37 @@
 package com.training.bookstore;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
-public class BookStore {
+public class BookStoreSet {
 
-	private List<Book> bookList;
+	private Set<Book> bookSet;
 
-	public List<Book> getBookList() {
-		return bookList;
+	public Set<Book> getBookSet() {
+		return bookSet;
 	}
 
-	public BookStore()
+	public BookStoreSet()
 	{
-		bookList = new ArrayList<Book>();
+		bookSet = new LinkedHashSet<Book>();
 	}
 
 	// add a book
 
 	public boolean addBook(Book book)
 	{
-		return bookList.add(book);
+		return bookSet.add(book);
 	}
 
 	// remove a book based on isbn
 	public boolean removeBook(Long isbn)
 	{
-		for(Book book:bookList)
+		for(Book book:bookSet)
 		{
 			if(book.getIsbn().equals(isbn)) {
-				bookList.remove(book);
+				bookSet.remove(book);
 				return true;
 			}
 			
@@ -41,7 +43,7 @@ public class BookStore {
 	//update the stock based on isbn
 	public boolean updateStock(Long isbn,Long newStock)
 	{
-		for(Book book:bookList)
+		for(Book book:bookSet)
 		{
 			if(book.getIsbn().equals(isbn)) {
 				book.setStock(book.getStock()+newStock);
@@ -62,7 +64,7 @@ public class BookStore {
 	{
 		List<Book> bookPatternList = new ArrayList<>();
 		
-		for(Book book:bookList)
+		for(Book book:bookSet)
 		{
 			if(book.getTitle().toUpperCase().indexOf(pattern.toUpperCase())!=-1)
 				bookPatternList.add(book);

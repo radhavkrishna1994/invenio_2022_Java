@@ -8152,3 +8152,6 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Jun 24 
 	at java.base/sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:646)
 	at com.yattasolutions.obf.mt.f.checkIntegrity(SourceFile:206)
 	... 11 more
+
+!ENTRY org.eclipse.ui 2 2 2022-08-26 17:26:32.116
+!MESSAGE Invalid preference category path: org.eclipse.mylyn.preferencePages.Mylyn (bundle: org.eclipse.mylyn.context.ui, page: org.eclipse.mylyn.context.ui.preferences)

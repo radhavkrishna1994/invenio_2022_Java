@@ -1,14 +1,14 @@
 package com.training.bookstore;
 
-public class Book {
+public class Book2 implements Comparable<Book2>{
 	private Long isbn;
 	private String title;
 	private Double price;
 	private Long stock;
-	public Book() {
+	public Book2() {
 		super();
 	}
-	public Book(Long isbn, String title, Double price, Long stock) {
+	public Book2(Long isbn, String title, Double price, Long stock) {
 		super();
 		this.isbn = isbn;
 		this.title = title;
@@ -43,31 +43,14 @@ public class Book {
 	public String toString() {
 		return isbn+" "+title+" "+price+" "+stock;
 	}
-	
 	@Override
-	public int hashCode() {
-		return (isbn+"").hashCode();
+	public int compareTo(Book2 book) {
+		
+		//return title.compareTo(book.getTitle());
+		
+		return isbn.compareTo(book.getIsbn());
 	}
-	
-	
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Book other = (Book) obj;
-		if (isbn == null) {
-			if (other.isbn != null)
-				return false;
-		} else if (!isbn.equals(other.isbn))
-			return false;
-		return true;
-	}
-	
-	
+		
 
 }
 
