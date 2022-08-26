@@ -10,11 +10,22 @@ public class Demo1 {
 	public static void main(String[] args) {
 
 		try {
+		String abc=null;
+		System.out.println(abc.length());
+		}
+		catch(NullPointerException e)
+		{
+			System.out.println("string is null");
+		}
+		
+		try {
 			int num1 = Integer.parseInt(args[0]);
 			int num2 = Integer.parseInt(args[1]);
 			//try {
 				int result = num1/num2;
 				System.out.println("Result:"+result);
+				
+				
 			//}
 
 			/*
@@ -39,6 +50,7 @@ public class Demo1 {
 		{
 			System.out.println("Other exceptions");
 		}
+	
 
 	}
 
