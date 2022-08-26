@@ -44,7 +44,8 @@ public class BookStore {
 		for(Book book:bookList)
 		{
 			if(book.getIsbn().equals(isbn)) {
-				//complete the code
+				book.setStock(book.getStock()+newStock);
+						
 				return true;
 			}
 			

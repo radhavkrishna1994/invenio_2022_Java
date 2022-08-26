@@ -29,6 +29,13 @@ public class BookStoreClient {
 		}
 		else
 			System.out.println("Book not found");
+		
+		System.out.println("Enter the isbn of the book to be updated..");
+		Long isbn1 = sc.nextLong();
+		
+		status = store.updateStock(isbn1, 50l);
+		
+		print(store.getBookList());
 	}
 
 	public static void print(List<Book> bookList) {
