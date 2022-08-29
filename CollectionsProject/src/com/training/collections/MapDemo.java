@@ -3,6 +3,7 @@ package com.training.collections;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.TreeMap;
 
 class Account
@@ -70,7 +71,8 @@ public class MapDemo {
 	}
 	public static void print()
 	{
-		accounts.entrySet();
+		Set<Entry<String,Account>> set= accounts.entrySet();
+		
 	}
 	public static void main(String[] args) {
 				
