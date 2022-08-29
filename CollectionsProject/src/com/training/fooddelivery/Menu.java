@@ -2,10 +2,11 @@ package com.training.fooddelivery;
 
 public class Menu {
 	private String dishName;
+	private Double price;
 	public Menu() {
 		super();
 	}
-	private Double price;
+	
 	public Menu(String dishName, Double price) {
 		super();
 		this.dishName = dishName;

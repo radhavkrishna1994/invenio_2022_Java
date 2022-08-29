@@ -28,7 +28,21 @@ public class RestaurantDemo {
 		
 		//Retrieve menu of the restaurant based on name of the restaurant
 		
+		printMenu("McDonalds",menuMap);
+		
 		//Retrieve all restaurants' name that offers a particular dish
+	}
+
+	private static void printMenu(String name,Map<Restaurant, List<Menu>> menuMap) {
+		
+		Set<Restaurant> restaurants = menuMap.keySet();
+		for(Restaurant r: restaurants)
+		{
+			if(r.getName().equalsIgnoreCase(name))
+				System.out.println(menuMap.get(r));
+		}
+		
+		
 	}
 
 	public  static void printAll(Map<Restaurant, List<Menu>> menuMap) {
