@@ -62,8 +62,7 @@ public class UtilityDemo {
 		System.out.println(books1);
 		
 		System.out.println(Collections.max(books1, comp));
-		
-		
+			
 		
 	}
 
