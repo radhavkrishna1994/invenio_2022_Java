@@ -42,10 +42,11 @@ public class Account {   // obj account
 		this.balance = balance;
 	}
 	
-	public synchronized void withdraw(Double amount)
+	public /* synchronized */ void withdraw(Double amount)
 	{
-		System.out.println("Taking the request...");
+		System.out.println("Taking the request..."+Thread.currentThread().getName());
 		System.out.println("Processing...");
+		synchronized(this) {
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -56,7 +57,24 @@ public class Account {   // obj account
 		balance-=amount;
 		System.out.println("Transaction done..."+balance);}
 		else
-			System.out.println("Transactoon not completed|Insufficient balance");
+			System.out.println("Transaction not completed|Insufficient balance");
+		}
+	}
+	
+	public synchronized void deposit(Double amount)
+	{
+		System.out.println("Taking the deposit request..."+Thread.currentThread().getName());
+		System.out.println("Processing...");
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		balance+=amount;
+		System.out.println("Transaction done..."+balance);
+		
 	}
 
 }
