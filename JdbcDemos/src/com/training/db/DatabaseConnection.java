@@ -10,13 +10,15 @@ public class DatabaseConnection {
 	
 	public static Connection getConnection()
 	{
-		String jdbcDriver = "";
-		String dbUrl = "";
+		String jdbcDriver = "com.mysql.cj.jdbc.Driver";
+		String dbUrl = "jdbc:mysql://localhost/bookstore";
 		
 		// load the jdbc driver 
 		try {
 			Class.forName(jdbcDriver); //loads the driver class
 			connection = DriverManager.getConnection(dbUrl, "root", "root");
+			if(connection!=null)
+				System.out.println("Connection Successful...");
 			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -27,6 +29,11 @@ public class DatabaseConnection {
 		}
 	
 		return connection;
+	}
+	
+	public static void main(String[] args) {
+		
+		getConnection();
 	}
 
 }
