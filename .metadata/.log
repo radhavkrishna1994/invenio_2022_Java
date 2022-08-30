@@ -10177,3 +10177,6 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Jun 24 
 
 !ENTRY org.eclipse.jdt.ui 2 0 2022-08-30 12:46:50.743
 !MESSAGE The 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+
+!ENTRY org.eclipse.ui 2 2 2022-08-30 14:45:04.665
+!MESSAGE Invalid preference category path: org.eclipse.mylyn.preferencePages.Mylyn (bundle: org.eclipse.mylyn.context.ui, page: org.eclipse.mylyn.context.ui.preferences)
