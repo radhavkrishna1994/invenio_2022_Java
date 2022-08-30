@@ -1,6 +1,7 @@
 package com.training.dao;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -42,6 +43,26 @@ public class BookDao {
 			return null;
 		}
 		
+	}
+	
+	public int addBook(Book book)
+	{
+		PreparedStatement pstmt=null;
+		String template="insert into book values(?,?,?,?)";
+		try {
+			pstmt= connection.prepareStatement(template);
+			pstmt.setLong(1, book.getIsbn());
+			pstmt.setString(2, book.getTitle());
+			pstmt.setDouble(3, book.getPrice());
+			pstmt.setLong(4, book.getStock());
+			
+			return pstmt.executeUpdate();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return 0;
+		}
 	}
 
 }
