@@ -10174,3 +10174,6 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Jun 24 
 	at java.base/sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:646)
 	at com.yattasolutions.obf.mt.f.checkIntegrity(SourceFile:206)
 	... 11 more
+
+!ENTRY org.eclipse.jdt.ui 2 0 2022-08-30 12:46:50.743
+!MESSAGE The 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.

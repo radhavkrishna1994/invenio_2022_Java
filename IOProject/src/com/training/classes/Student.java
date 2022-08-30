@@ -1,8 +1,10 @@
 package com.training.classes;
 
-public class Student {
+import java.io.Serializable;
 
-	private String name;
+public class Student implements Serializable{
+
+	private transient String name;
 	private int age;
 	private String email;
 	public Student() {
