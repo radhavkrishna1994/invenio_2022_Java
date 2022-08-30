@@ -1,16 +1,16 @@
 package com.training.classes;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 
 public class FileAttributesDemo {
 
 	public static void main(String[] args) {
-		
 		//attributes of a file
 		
-		File file = new File("d:\\files");
+		File file = new File("d:\\files\\test.txt");
 		if(file.exists())
 		{
 			System.out.println("File Exists..");
@@ -31,7 +31,24 @@ public class FileAttributesDemo {
 				System.out.println("Modified:"+new Date(file.lastModified()));
 				System.out.println("Readable:"+file.canRead());
 				System.out.println("Writable:"+file.canWrite());
-				
+				FileWriter fw=null;
+				//write content 
+				try {
+					fw = new FileWriter(file,true);
+					fw.write("\nThis is new content");
+					
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				finally {
+					try {
+						fw.close();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
 				
 			}
 		}
