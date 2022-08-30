@@ -10,7 +10,7 @@ public class FileAttributesDemo {
 	public static void main(String[] args) {
 		//attributes of a file
 		
-		File file = new File("d:\\files\\test.txt");
+		File file = new File("d:\\files\\record.csv");
 		if(file.exists())
 		{
 			System.out.println("File Exists..");
@@ -37,6 +37,8 @@ public class FileAttributesDemo {
 					fw = new FileWriter(file,true);
 					fw.write("\nThis is new content");
 					
+					//write name age email to a csv n records
+										
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
