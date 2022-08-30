@@ -30,6 +30,9 @@ public class Demo1 {
 
 				TestInterface test1 = (int x,int y)->System.out.println("Sum="+(x+y));
 				test1.add(34, 12);
+				
+				test1.m1();
+				TestInterface.static1();
 
 				Runnable r=new Runnable()
 				{
@@ -65,6 +68,11 @@ public class Demo1 {
 				
 				//code
 			
+	Comparator<Book> comp = (Book b1,Book b2)->{
+		return b1.getPrice().compareTo(b2.getPrice());
+		};
+	
+				
 				Collections.sort(books,comp);
 				System.out.println(books);
 
