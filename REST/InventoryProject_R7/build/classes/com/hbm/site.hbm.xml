@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bean.Site" table="site"
+		lazy="false">
+
+		<id name="siteName">
+			<generator class="assigned">
+			</generator>
+		</id>
+
+		<property name="siteInCharge" type="string" column="siteInCharge"/>
+		<property name="location" type="string" column="location" not-null="true"/>
+	
+		<property name="constructionHead" type="string" column="constructionHead" />
+	</class>
+</hibernate-mapping>

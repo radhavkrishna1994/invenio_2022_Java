@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bean.Material" table="material" lazy="false">
+
+		<id name="code" column="code">
+			<generator class="native">
+			</generator>
+		</id>
+
+		<property name="description" type="string" column="description"
+			not-null="true" />
+		<property name="term" type="string" column="term" not-null="true" />
+
+	</class>
+
+	<class name="com.bean.Vendor" table="vendor" lazy="false">
+
+		<id name="tinNo" column="tinNo">
+			<generator class="assigned">
+			</generator>
+		</id>
+
+
+		<property name="vendorName" type="string" column="vendorName"
+			not-null="true" />
+		<property name="vendorAddress" type="string" column="vendorAddress"
+			not-null="true" />
+		<property name="phone" type="string" column="phone" not-null="true" />
+		<property name="email" type="string" column="email"  />
+
+	</class>
+
+	<class name="com.bean.Invoice" table="invoice" lazy="false">
+
+		<id name="invNo" column="invNo">
+			<generator class="assigned">
+			</generator>
+		</id>
+		<property name="poReference" type="string" column="poReference"
+			not-null="true" />
+		<property name="paymentDueDate" type="date" column="paymentDueDate" />
+
+		<property name="invAmount" type="double" column="invAmount"
+			not-null="true" />
+		<property name="dateOfInv" type="date" column="dateOfInv"
+			not-null="true" />
+
+		<property name="billImagePath" type="string" column="billImagePath" />
+
+		<property name="quantity" type="double" column="quantity"
+			not-null="true" />
+
+		<property name="tinNo" />
+		<property name="siteName" />
+
+
+		<many-to-one name="material" class="com.bean.Material"
+			cascade="all" unique="true">
+			<column name="code"></column>
+		</many-to-one>
+		<!-- <many-to-one name="vendor" class="com.bean.Vendor" cascade="all" unique="true"> 
+			<column name="tinno"></column> </many-to-one> -->
+
+
+		<!-- <many-to-one name="site" class="com.bean.Site" cascade="all" unique="true"> 
+			<column name="siteName"></column> </many-to-one> -->
+
+	</class>
+
+	<class name="com.bean.Site" table="site" lazy="false">
+
+		<id name="siteName">
+			<generator class="assigned">
+			</generator>
+		</id>
+
+		<property name="siteInCharge" type="string" column="siteInCharge"
+			not-null="false" unique="true" />
+		<property name="location" type="string" column="location"
+			not-null="true" />
+
+		<property name="constructionHead" type="string" column="constructionHead"
+			not-null="false" />
+	</class>
+
+	<class name="com.bean.Requirement" table="requirement" lazy="false">
+
+		<id name="requirementNo">
+			<generator class="native">
+			</generator>
+		</id>
+
+		<property name="materialDesc" type="string" />
+		<property name="term" type="string" />
+
+		<property name="quantity" type="int" />
+		<property name="dateOfRequirement" type="date" />
+		<property name="status" type="string" />
+		<property name="siteName" type="string" />
+		<property name="actor" type="string" />
+		<property name="poReference" type="string" column="poReference"
+			 />
+	</class>
+
+	<class name="com.bean.PORequest" table="PORequest" lazy="false">
+
+		<id name="PORNumber">
+			<generator class="native">
+			</generator>
+		</id>
+
+		<property name="material" type="string" />
+		<property name="term" type="string" />
+
+		<property name="quantity" type="int" />
+		<property name="vendorName" type="string" />
+		<property name="price" type="double" />
+		<property name="requestDate" type="date" />
+		<property name="poStatus" type="string" />
+		<property name="siteName" type="string" />
+		<property name="requirementNo" type="int" />
+	</class>
+
+	<class name="com.bean.PurchaseMaterial" table="PurchaseMaterial"
+		lazy="false">
+
+		<id name="slNo">
+			<generator class="assigned">
+			</generator>
+		</id>
+
+		<property name="materialDesc" type="string" />
+		<property name="orderedQuantity" type="double" />
+
+		<property name="unitPrice" type="double" />
+		<property name="packingCharges" type="string" />
+		<property name="discount" type="string" />
+		<property name="exciseDuty" type="string" />
+		<property name="salesTax" type="double" />
+		<property name="totalValue" type="double" />
+		<property name="requirementNo" type="int" />
+	</class>
+	<class name="com.bean.PO" table="PO" lazy="false">
+
+		<id name="poReference">
+			<generator class="assigned">
+			</generator>
+		</id>
+
+		<property name="officeAddress" type="string" />
+		<property name="siteAddress" type="string" />
+		<property name="toAddress" type="string" />
+		<property name="poDate" type="date" />
+		<property name="ourTin" type="string" />
+		<property name="carriage" type="string" />
+		<property name="inspection" type="string" />
+		<property name="freight" type="string" />
+		<property name="transportation" type="string" />
+		<property name="transitInsurance" type="string" />
+		<property name="documentaion" type="string" />
+		
+		<property name="deliveryDetails" type="string" />
+		<property name="paymentTerms" type="string" />
+		<property name="specificInstructions" type="string" />
+		<property name="status" type="string" />
+		<property name="totalAmount" type="double" />
+		
+		<many-to-one name="vendor" class="com.bean.Vendor">
+			<column name="vendorCode"></column>
+		</many-to-one>
+
+		 <list name="materialList" cascade="all">
+			<key column="poReference"></key>
+			<list-index column="idx" />
+			<one-to-many class="com.bean.PurchaseMaterial" />
+		</list> 
+
+		
+	</class>
+
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
