@@ -66,15 +66,41 @@ public class BookDao {
 	}
 	
 	//delete a book
-	
 	public int deleteBook(Long isbn)
 	{
-		return 0;
+		PreparedStatement pstmt=null;
+		String template="delete from book where isbn=?";
+		try {
+			pstmt= connection.prepareStatement(template);
+			
+			pstmt.setLong(1, isbn);
+			
+			return pstmt.executeUpdate();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return 0;
+		}
 	}
+	
 	//update stock
 	public int updateBook(Long isbn,Long newStock)
 	{
-		return 0;
+		PreparedStatement pstmt=null;
+		String template="update book set stock=stock+? where isbn=?";
+		try {
+			pstmt= connection.prepareStatement(template);
+			pstmt.setLong(1, newStock);
+			pstmt.setLong(2, isbn);
+			
+			return pstmt.executeUpdate();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return 0;
+		}
 	}
 	
 

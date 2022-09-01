@@ -11,6 +11,7 @@ import com.training.db.BookDao;
 import jakarta.ws.rs.DELETE;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
+import jakarta.ws.rs.PUT;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
@@ -74,18 +75,18 @@ public class BookResource {
 	
 	@Path("/book/isbn/{isbn}")
 	@DELETE
-	public Book deleteBook(Long isbn)
+	public int deleteBook(@PathParam("isbn") Long isbn)
 	{
-		
-		return null;
+		return bookDao.deleteBook(isbn);
+		 
 	}
 	
-	@Path("/book/isbn/{isbn}")
-	@DELETE
-	public Book updateBook(Long isbn,Long newStock)
+	@Path("/book/isbn/{isbn}/stock/{stock}")
+	@PUT
+	public int updateBook(@PathParam("isbn") Long isbn,@PathParam("stock") Long newStock)
 	{
 		
-		return null;
+		return bookDao.updateBook(isbn, newStock);
 	}
 	
 }
