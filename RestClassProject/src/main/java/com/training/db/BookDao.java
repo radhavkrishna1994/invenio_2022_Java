@@ -64,5 +64,18 @@ public class BookDao {
 			return 0;
 		}
 	}
+	
+	//delete a book
+	
+	public int deleteBook(Long isbn)
+	{
+		return 0;
+	}
+	//update stock
+	public int updateBook(Long isbn,Long newStock)
+	{
+		return 0;
+	}
+	
 
 }

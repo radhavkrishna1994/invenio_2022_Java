@@ -8,6 +8,7 @@ import java.util.List;
 import com.training.classes.Book;
 import com.training.db.BookDao;
 
+import jakarta.ws.rs.DELETE;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
@@ -63,13 +64,28 @@ public class BookResource {
 		return bookDao.getBooks();
 	}
 	
-	/*@Path("/book")
+	@Path("/book")
 	@POST
 	public Book addBook(Book book)
 	{
-		books.add(book);
+		bookDao.addBook(book);
 		return book;
 	}
-	*/
+	
+	@Path("/book/isbn/{isbn}")
+	@DELETE
+	public Book deleteBook(Long isbn)
+	{
+		
+		return null;
+	}
+	
+	@Path("/book/isbn/{isbn}")
+	@DELETE
+	public Book updateBook(Long isbn,Long newStock)
+	{
+		
+		return null;
+	}
 	
 }
