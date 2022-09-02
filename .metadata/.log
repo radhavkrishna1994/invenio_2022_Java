@@ -2158,3 +2158,71 @@ java.lang.NullPointerException
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.debug 4 4 2022-09-02 17:32:39.097
+!MESSAGE unexpected error
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:967)
+	at org.eclipse.ui.internal.console.ConsoleDocument.get(ConsoleDocument.java:29)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker$1.getContents(PythonConsoleLineTracker.java:156)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.lineAppended(PythonConsoleLineTracker.java:200)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.debug 4 4 2022-09-02 17:32:39.295
+!MESSAGE unexpected error
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:967)
+	at org.eclipse.ui.internal.console.ConsoleDocument.get(ConsoleDocument.java:29)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker$1.getContents(PythonConsoleLineTracker.java:156)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.lineAppended(PythonConsoleLineTracker.java:200)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.embedder.node 4 0 2022-09-02 17:37:30.054
+!MESSAGE failed to create directory D:\git_material\invenio_2022_Java\.metadata\.plugins\org.eclipse.wildwebdeveloper.embedder.node\node-v12.16.1-win-x64
+!STACK 0
+java.io.IOException: failed to create directory D:\git_material\invenio_2022_Java\.metadata\.plugins\org.eclipse.wildwebdeveloper.embedder.node\node-v12.16.1-win-x64
+	at org.eclipse.wildwebdeveloper.embedder.node.CompressUtils.extractArchive(CompressUtils.java:79)
+	at org.eclipse.wildwebdeveloper.embedder.node.CompressUtils.unarchive(CompressUtils.java:51)
+	at org.eclipse.wildwebdeveloper.embedder.node.NodeJSManager.getNodeJsLocation(NodeJSManager.java:78)
+	at org.eclipse.wildwebdeveloper.angular.AngularLanguageServer.<init>(AngularLanguageServer.java:43)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:923)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:129)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:222)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-09-02 17:37:33.654
+!MESSAGE [Info]	Using @angular/language-service v10.0.4 from C:\Users\Radha\.p2\pool\plugins\org.eclipse.wildwebdeveloper_0.5.10.202008281220\node_modules\@angular\language-service\bundles\language-service.umd.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-09-02 17:37:33.654
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-09-02 17:37:33.655
+!MESSAGE [Info]	Using typescript v3.9.7 from C:\Users\Radha\.p2\pool\plugins\org.eclipse.wildwebdeveloper_0.5.10.202008281220\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-09-02 17:37:33.655
+!MESSAGE [Info]	Angular language server process ID: 29932
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-09-02 17:37:34.340
+!MESSAGE [Error]	No config file for d:\git_material\invenio_2022_Java\webdemos\src\main\webapp\login.html
