@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -40,21 +41,22 @@ public class BookController {
 	}
 	
 	@DeleteMapping("/book/isbn/{isbn}")
-	public Book deleteBook(Long isbn)
+	public Book deleteBook(@PathVariable("isbn") Long isbn)
 	{
-		return null;
+		return bookService.deleteBook(isbn);
 	}
 	
 	@PostMapping
-	public Book addBook(Book book)
+	public Book addBook(@RequestBody Book book)
 	{
-		return null;
+		return bookService.addBook(book);
 	}
 	
 	@PutMapping("/book/isbn/{isbn}/stock/{newstock}")
-	public Book updateBook(Long isbn,Long newStock)
+	public Book updateBook(@PathVariable("isbn") Long isbn,@PathVariable("newstock") Long newStock)
 	{
-		return null;
+		
+		return bookService.updateBook(isbn, newStock);
 	}
 
 

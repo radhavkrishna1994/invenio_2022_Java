@@ -35,18 +35,31 @@ public class BookService implements BookInterface{
 	@Override
 	public Book addBook(Book book) {
 		
-		return null;
+		return bookRepo.save(book);
 	}
 
 	@Override
 	public Book deleteBook(Long isbn) {
-		// TODO Auto-generated method stub
+		
+		Optional<Book> bookFound = bookRepo.findById(isbn);
+		if(bookFound.isPresent())
+		{
+			Book book = bookFound.get();
+			bookRepo.delete(book);
+			return book;
+		}
 		return null;
 	}
 
 	@Override
 	public Book updateBook(Long isbn, Long newStock) {
-		// TODO Auto-generated method stub
+		Optional<Book> bookFound = bookRepo.findById(isbn);
+		if(bookFound.isPresent())
+		{
+			Book book = bookFound.get();
+			book.setStock(book.getStock()+newStock);
+			bookRepo.save(book);
+		}
 		return null;
 	}
 
