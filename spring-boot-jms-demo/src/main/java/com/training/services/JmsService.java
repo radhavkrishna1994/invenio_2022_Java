@@ -38,7 +38,7 @@ public class JmsService {
 		
 	public String postOrder(List<Order> orders)
 	{
-		jmsTemplate.convertAndSend(queue, orders);
+		jmsTemplate.convertAndSend(queue1, orders);
 		return orders+"published";
 	}
 

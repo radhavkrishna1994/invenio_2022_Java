@@ -1,5 +1,6 @@
 package com.training.consumers;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.jms.annotation.JmsListener;
@@ -16,9 +17,11 @@ public class OrderConsumer {
 	 
 	
 	
-		/*
-		 * @JmsListener(destination = "order-queue") public void
-		 * receiveMessage(List<Order> orders) {
-		 * System.out.println("Orders Received:"+orders); }
-		 */
+		
+		
+		  @JmsListener(destination = "order-queue") public void
+		  receiveMessage(ArrayList<Order> orders) {
+		  System.out.println("Orders Received:"+orders); }
+		 
+		 
 }
