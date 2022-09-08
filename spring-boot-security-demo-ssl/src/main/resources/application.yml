@@ -1,0 +1,8 @@
+server:
+ port: 8443
+ 
+ ssl:
+    key-alias: springboot                        
+    key-store: classpath:springboot.jks                  
+    key-store-password: password        
+    key-password: password
