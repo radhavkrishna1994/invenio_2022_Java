@@ -11,10 +11,19 @@ public class MyConfiguraion {
 	@Value("${queue}")
 	private String queue;
 	
-	@Bean
-	public ActiveMQQueue getActiveMQ()
+	@Value("${queue1}")
+	private String queue1;
+	
+	@Bean(name="queue")
+	public ActiveMQQueue getActiveMQ1()
 	{
 		return new ActiveMQQueue(queue);
+	}
+	
+	@Bean(name="queue1")
+	public ActiveMQQueue getActiveMQ()
+	{
+		return new ActiveMQQueue(queue1);
 	}
 	
 
