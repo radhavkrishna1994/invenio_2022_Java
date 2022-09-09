@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/load")
-public class LoadController {
+public class BatchController {
 
     @Autowired
     JobLauncher jobLauncher;
@@ -25,8 +25,7 @@ public class LoadController {
     @Autowired
     Job job;
 
-    
-    @Scheduled(cron = "0 32 13 * * ?")
+ //    @Scheduled(fixedDelay = 10000)
      @GetMapping
     public BatchStatus load() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
 

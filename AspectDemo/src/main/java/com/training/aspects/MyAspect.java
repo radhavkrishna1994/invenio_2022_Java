@@ -3,6 +3,7 @@ package com.training.aspects;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -18,7 +19,7 @@ public class MyAspect {
 
 	private Logger log = LoggerFactory.getLogger("MyAspect.class");
 	
-	@Before(value = "execution(* com.training.services.MyService.get*(..))") //PointCut Expn
+	@Before(value = "execution(* com.training.services.MyService.getAge(int))") //PointCut Expn
 	public void logBeforeAspect(JoinPoint joinPoint)
 	{
 		log.info("This is Before method..");
@@ -51,5 +52,12 @@ public class MyAspect {
 			}
 		return value;
 		
+	}
+	
+	@AfterThrowing(value = "execution(* com.training.services.MyService.test*(..))")
+	public void logThrows(JoinPoint joinPoint)
+	{
+		System.out.println("Exception thrown");
+		System.out.println(joinPoint.getTarget().getClass().getName());
 	}
 }

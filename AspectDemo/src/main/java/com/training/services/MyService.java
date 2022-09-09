@@ -14,15 +14,25 @@ public class MyService {
 		return name;
 	}
 	
-	public void getAll(int age,String name)
+	public String getAll(int age,String name)
 	{
 		System.out.println(age+" "+name);
 		
-		
+		return age+" "+name;
+	}
+	
+	public int getAge(int age)
+	{
+		return age;
 	}
 	
 	public void setName(String name)
 	{
 		System.out.println("Name:"+name);
+	}
+	
+	public void test(int x)
+	{
+		System.out.println("result:"+10/x);
 	}
 }

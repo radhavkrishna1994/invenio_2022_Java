@@ -21,12 +21,14 @@ public class AspectDemoApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		System.out.println("test command line ");
-		System.out.println(service.getName("sam"));
+		System.out.println(service.getName("sam")); // around
+		System.out.println(service.getAge(23));     // around before
 		
-		service.getAll(23,"john");
+		service.getAll(23,"john");   // around
 		
-		service.setName("george");
-		
+		service.setName("george");   // after
+		 
+		service.test(0);
 	}
 	
 	

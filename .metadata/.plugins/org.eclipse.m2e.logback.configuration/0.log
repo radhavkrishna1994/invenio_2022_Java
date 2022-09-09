@@ -2927,3 +2927,334 @@
 2022-09-08 19:00:27,121 [Worker-77: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-08 19:00:27,121 [Worker-77: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-09-08 19:00:27,121 [Worker-77: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 09:42:33,885 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-09 10:27:47,378 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:27:47,381 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:27:47,386 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:27:47,414 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:27:47,418 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:27:47,418 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:27:47,418 [Worker-13: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 10:30:32,557 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:30:32,557 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:30:32,560 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:30:32,572 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:30:32,574 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:30:32,574 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:30:32,574 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 10:36:32,285 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:36:32,285 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:36:32,286 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:36:32,296 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:36:32,298 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:36:32,299 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:36:32,299 [Worker-22: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 10:37:16,962 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:37:16,962 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:37:16,963 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:37:16,973 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:37:16,974 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:37:16,974 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:37:16,974 [Worker-16: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 10:38:35,633 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:38:35,633 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:38:35,634 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:38:35,644 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:38:35,645 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:38:35,645 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:38:35,645 [Worker-9: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 10:39:25,346 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:39:25,347 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:39:25,347 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 10:39:25,366 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 10:39:25,369 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 10:39:25,369 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 10:39:25,370 [Worker-19: Launching AspectDemo - AspectDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\AspectDemo\src\test\resources
+2022-09-09 12:11:13,092 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:spring-batch-demo:0.0.1-SNAPSHOT @ D:\git_material\invenio_2022_Java\spring-batch-demo\pom.xml.
+2022-09-09 12:11:14,384 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-batch/2.7.3/spring-boot-starter-batch-2.7.3.pom
+2022-09-09 12:11:14,759 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-batch/2.7.3/spring-boot-starter-batch-2.7.3.pom
+2022-09-09 12:11:14,988 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-core/4.3.6/spring-batch-core-4.3.6.pom
+2022-09-09 12:11:15,202 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-core/4.3.6/spring-batch-core-4.3.6.pom
+2022-09-09 12:11:15,425 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6.pom
+2022-09-09 12:11:15,634 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6.pom
+2022-09-09 12:11:15,963 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-test/4.3.6/spring-batch-test-4.3.6.pom
+2022-09-09 12:11:16,164 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-test/4.3.6/spring-batch-test-4.3.6.pom
+2022-09-09 12:11:16,385 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-test/4.3.6/spring-batch-test-4.3.6.jar
+2022-09-09 12:11:16,474 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-core/4.3.6/spring-batch-core-4.3.6.jar
+2022-09-09 12:11:16,582 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-batch/2.7.3/spring-boot-starter-batch-2.7.3.jar
+2022-09-09 12:11:16,582 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6.jar
+2022-09-09 12:11:17,009 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-test/4.3.6/spring-batch-test-4.3.6.jar
+2022-09-09 12:11:17,033 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-batch/2.7.3/spring-boot-starter-batch-2.7.3.jar
+2022-09-09 12:11:17,712 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6.jar
+2022-09-09 12:11:17,905 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-core/4.3.6/spring-batch-core-4.3.6.jar
+2022-09-09 12:11:18,787 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-batch-demo/src/main/java
+2022-09-09 12:11:18,788 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-batch-demo/src/main/resources
+2022-09-09 12:11:18,796 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-batch-demo/src/main/resources
+2022-09-09 12:11:18,803 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-batch-demo/src/test/java
+2022-09-09 12:11:21,960 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2022-09-09 12:11:21,965 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-09 12:11:22,407 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:spring-batch-demo:0.0.1-SNAPSHOT @ D:\git_material\invenio_2022_Java\spring-batch-demo\pom.xml.
+2022-09-09 12:11:23,444 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-batch-demo/src/main/java
+2022-09-09 12:11:23,444 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-batch-demo/src/main/resources
+2022-09-09 12:11:23,445 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-batch-demo/src/main/resources
+2022-09-09 12:11:23,447 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-batch-demo/src/test/java
+2022-09-09 12:11:23,781 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-09-09 12:21:35,485 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-09 12:29:25,149 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6-sources.jar
+2022-09-09 12:29:26,012 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-infrastructure/4.3.6/spring-batch-infrastructure-4.3.6-sources.jar
+2022-09-09 12:29:26,083 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.batch:spring-batch-infrastructure:4.3.6
+2022-09-09 12:53:08,124 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:53:08,124 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:53:08,132 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:53:08,155 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:53:08,163 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:53:08,163 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:53:08,163 [Worker-21: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 12:53:40,560 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:53:40,560 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:53:40,565 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:53:40,591 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:53:40,597 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:53:40,597 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:53:40,597 [Worker-19: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 12:57:02,973 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:57:02,973 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:57:02,975 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:57:02,988 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 12:57:02,992 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:57:02,992 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:57:02,992 [Worker-24: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 12:59:24,569 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:59:24,569 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:59:24,569 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 12:59:24,578 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 12:59:24,580 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 12:59:24,580 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 12:59:24,580 [Worker-29: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:00:49,387 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:00:49,388 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:00:49,388 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:00:49,401 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:00:49,404 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:00:49,404 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:00:49,404 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:01:01,921 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:01:01,921 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:01:01,921 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:01:01,937 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:01:01,941 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:01:01,941 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:01:01,941 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:02:08,132 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:02:08,132 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:02:08,132 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:02:08,139 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:02:08,142 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:02:08,142 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:02:08,142 [Worker-26: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:03:17,559 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:03:17,559 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:03:17,560 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:03:17,580 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:03:17,585 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:03:17,585 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:03:17,585 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:03:51,843 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:03:51,843 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:03:51,844 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:03:51,853 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:03:51,855 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:03:51,856 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:03:51,856 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:05:45,206 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:05:45,206 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:05:45,207 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:05:45,213 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:05:45,214 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:05:45,215 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:05:45,215 [Worker-32: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:07:51,895 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:07:51,896 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:07:51,896 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 13:07:51,896 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:07:51,900 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:07:51,900 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:07:51,901 [Worker-28: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:09:33,395 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:09:33,395 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:09:33,395 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:09:33,403 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 13:09:33,405 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:09:33,405 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:09:33,405 [Worker-33: Launching spring-batch-demo - SpringBatchDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-batch-demo\src\test\resources
+2022-09-09 13:10:26,529 [Worker-33: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:SpringBatchJpaExample:0.0.1-SNAPSHOT @ D:\git_material\invenio_2022_Java\SpringBatchJpaExample\pom.xml.
+2022-09-09 13:10:27,910 [Worker-33: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBatchJpaExample/src/main/java
+2022-09-09 13:10:27,911 [Worker-33: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBatchJpaExample/src/main/resources
+2022-09-09 13:10:27,911 [Worker-33: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBatchJpaExample/src/main/resources
+2022-09-09 13:10:27,911 [Worker-33: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBatchJpaExample/src/test/java
+2022-09-09 13:10:28,360 [Worker-33: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-09-09 13:10:51,823 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:10:51,824 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:10:51,825 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:10:51,827 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:10:51,834 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:10:51,835 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:10:51,835 [Worker-35: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:11:59,478 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:11:59,478 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:11:59,479 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:11:59,494 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:11:59,498 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:11:59,498 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:11:59,498 [Worker-39: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:14:03,152 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:14:03,152 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:14:03,152 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 13:14:03,152 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:14:03,155 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:14:03,156 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:14:03,156 [Worker-40: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:18:43,284 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:18:43,284 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:18:43,285 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:18:43,305 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:18:43,309 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:18:43,309 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:18:43,309 [Worker-44: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:19:39,071 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:19:39,071 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:19:39,072 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:19:39,117 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:19:39,118 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:19:39,119 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:19:39,119 [Worker-46: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:23:44,096 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:23:44,096 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:23:44,097 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:23:44,117 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:23:44,118 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:23:44,118 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:23:44,119 [Worker-41: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:25:31,492 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:25:31,492 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:25:31,493 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:25:31,501 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:25:31,502 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:25:31,502 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:25:31,502 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:26:20,930 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:26:20,930 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:26:20,931 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:26:20,943 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:26:20,944 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:26:20,944 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:26:20,945 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:27:25,945 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:27:25,945 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:27:25,946 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:27:25,954 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:27:25,956 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:27:25,956 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:27:25,956 [Worker-48: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:29:50,363 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:29:50,363 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:29:50,364 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:29:50,373 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:29:50,375 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:29:50,375 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:29:50,375 [Worker-49: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 13:31:27,078 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:31:27,078 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:31:27,078 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:31:27,088 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 13:31:27,091 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 13:31:27,091 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 13:31:27,091 [Worker-53: Launching SpringBatchJpaExample - SpringBatchJpaExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\SpringBatchJpaExample\src\test\resources
+2022-09-09 16:08:54,363 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-09 16:10:41,170 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 16:10:41,172 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 16:10:41,179 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 16:10:41,203 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 16:10:41,207 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 16:10:41,208 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 16:10:41,208 [Worker-11: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-boot-demo\src\test\resources
+2022-09-09 16:11:10,964 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 16:11:10,964 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 16:11:10,967 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 16:11:11,023 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 16:11:11,026 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 16:11:11,026 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 16:11:11,026 [Worker-0: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-boot-demo\src\test\resources
+2022-09-09 16:21:35,461 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-09-09 16:21:54,276 [Worker-7: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 16:21:54,279 [Worker-7: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 17:49:35,616 [Worker-27: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 17:49:35,617 [Worker-27: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 17:50:49,862 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-09 17:51:00,674 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 17:51:00,677 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 17:51:00,684 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 17:51:00,711 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 17:51:00,715 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 17:51:00,715 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 17:51:00,716 [Worker-3: Launching spring-boot-demo - SpringBootDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\invenio_2022_Java\spring-boot-demo\src\test\resources
+2022-09-09 17:53:01,117 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2022-09-09 17:53:01,198 [Worker-4: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 17:53:01,200 [Worker-4: Launching spring-boot-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 17:53:27,122 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-09-09 17:53:32,179 [Worker-2: Launching spring-boot-demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 17:53:32,179 [Worker-2: Launching spring-boot-demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 18:17:14,436 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-09-09 18:17:17,336 [Worker-8: Launching spring-boot-demo (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 18:17:17,336 [Worker-8: Launching spring-boot-demo (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 18:19:51,839 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-09-09 18:19:59,745 [Worker-9: Launching spring-boot-demo (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git_material\invenio_2022_Java\spring-boot-demo
+2022-09-09 18:19:59,745 [Worker-9: Launching spring-boot-demo (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2022-09-09 18:32:36,967 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:user-validation-demo:0.0.1-SNAPSHOT @ D:\git_material\sb_projects_practice\user-validation-demo\pom.xml.
+2022-09-09 18:32:38,178 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-validation-demo/src/main/java
+2022-09-09 18:32:38,178 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-validation-demo/src/main/resources
+2022-09-09 18:32:38,178 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-validation-demo/src/main/resources
+2022-09-09 18:32:38,178 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-validation-demo/src/test/java
+2022-09-09 18:32:38,499 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-09-09 18:33:45,477 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:33:45,477 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:33:45,478 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:33:45,482 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:33:45,486 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:33:45,486 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:33:45,486 [Worker-15: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources
+2022-09-09 18:41:58,804 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:41:58,804 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:41:58,807 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:41:58,872 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:41:58,874 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:41:58,874 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:41:58,874 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources
+2022-09-09 18:43:51,781 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:43:51,781 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:43:51,785 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:43:51,793 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:43:51,796 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:43:51,796 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:43:51,797 [Worker-16: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources
+2022-09-09 18:46:18,401 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:46:18,401 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:46:18,401 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:46:18,407 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:46:18,411 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:46:18,411 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:46:18,411 [Worker-19: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources
+2022-09-09 18:48:20,021 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:48:20,022 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:48:20,022 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:48:20,077 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:48:20,079 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:48:20,079 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:48:20,080 [Worker-24: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources
+2022-09-09 18:56:23,426 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:56:23,426 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:56:23,426 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-09 18:56:23,442 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-09 18:56:23,443 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-09 18:56:23,443 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-09 18:56:23,443 [Worker-27: Launching user-validation-demo - UserValidationDemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_material\sb_projects_practice\user-validation-demo\src\test\resources

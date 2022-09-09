@@ -26,14 +26,14 @@ public class SpringBootDemoApplication implements CommandLineRunner {
 	@Autowired
 	private BookRepo bookRepo;
 	
-	/*@PostConstruct
-	public void init()
-	{
-		bookRepo.save(new Book(1234l,"Let Us C",150.25,100l));
-		bookRepo.save(new Book(3456l,"Let Us CPlus",170.25,100l));
-		bookRepo.save(new Book(5432l,"Python",180.25,100l));
-		
-	}*/
+	
+	  @PostConstruct public void init() { bookRepo.save(new
+	  Book(1234l,"Let Us C",150.25,100l)); bookRepo.save(new
+	  Book(3456l,"Let Us CPlus",170.25,100l)); bookRepo.save(new
+	  Book(5432l,"Python",180.25,100l));
+	  
+	  }
+	 
 	
 	@Override
 	public void run(String... args) throws Exception {
